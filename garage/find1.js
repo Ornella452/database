@@ -24,3 +24,22 @@ VoitureModel.findById(_id, function (err, docs) {
         console.log("Result : ", docs); 
     } 
 }); 
+
+
+// 2 eme methode avec mode await
+/*
+async function CarAsync(){
+    
+    try {
+    
+        const result = await VoitureModel.findById("5fab072d2046723efc495d55").exec()
+            console.log(result)
+           // return Promise.resolve(result)
+        } catch (err) {
+            console.log(err)
+            //return Promise.reject(err)
+         }
+    }console.log(CarAsync())
+
+*/
+   
