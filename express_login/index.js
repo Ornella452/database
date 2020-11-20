@@ -7,15 +7,13 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models").User; // same as: const User = require('./models/user');
 
-const port = process.env.PORT || 3000;
+const port = 3000;
 
-mongoose.connect(
-  process.env.MONGODB_URI ||
-    "mongodb://localhost:27017/authentication_exercise",
+mongoose.connect("mongodb://localhost:27017/authentication_exercise",
   {
     useNewUrlParser: true,
     useCreateIndex: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: false
   }
 );
 
@@ -101,15 +99,22 @@ app.post("/signup", (req, res) => {
 
   console.log("will signup");
 
-  const username = req.body.username;
-  const password = req.body.password;
+  
+  const {username, firstName, surname, email, password, confirmPassword,  birthday} = req.body
 
   User.register(
     new User({
-      username: username
+      username,
+      firstName,
+       surname, 
+       email, 
+       password, 
+       confirmPassword, 
+       birthday,
       // other fields can be added here
     }),
-    password, // password will be hashed
+   
+
     (err, user) => {
       if (err) {
         console.log("/signup user register err", err);
