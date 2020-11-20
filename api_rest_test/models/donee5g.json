@@ -1,0 +1,1763 @@
+{
+   "count":135,
+   "antennes":[
+      {
+         "id":1684350,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-12E--ARRONDISSEMENT",
+         "adr":"77 R DE BERCY HÔTEL MERCURE",
+         "loc":[
+            48.83833,
+            2.38111
+         ],
+         "date":"2018-06-15",
+         "modif":"2019-08-23",
+         "cp":"75012"
+      },
+      {
+         "id":207155,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-12E--ARRONDISSEMENT",
+         "adr":"40 AV DES TERROIRS DE FRANCE IMMEUBLE LUMIERE",
+         "loc":[
+            48.83139,
+            2.38861
+         ],
+         "date":"2001-07-20",
+         "modif":"2019-10-25",
+         "cp":"75012"
+      },
+      {
+         "id":87702,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-12E--ARRONDISSEMENT",
+         "adr":"13 AV EMILE LAURENT",
+         "loc":[
+            48.84111,
+            2.41111
+         ],
+         "date":"1998-02-13",
+         "modif":"2020-08-21",
+         "cp":"75012"
+      },
+      {
+         "id":194405,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-20E--ARRONDISSEMENT",
+         "adr":"27 R ST FARGEAU",
+         "loc":[
+            48.87167,
+            2.40167
+         ],
+         "date":"2000-06-16",
+         "modif":"2020-08-28",
+         "cp":"75020"
+      },
+      {
+         "id":64072,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-13E--ARRONDISSEMENT",
+         "adr":"30,32 AV EDISON",
+         "loc":[
+            48.82861,
+            2.36333
+         ],
+         "date":"1995-05-05",
+         "modif":"2020-08-17",
+         "cp":"75013"
+      },
+      {
+         "id":109403,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-13E--ARRONDISSEMENT",
+         "adr":"13 AV DE LA SOEUR ROSALIE",
+         "loc":[
+            48.83194,
+            2.35278
+         ],
+         "date":"1999-06-11",
+         "modif":"2019-08-30",
+         "cp":"75013"
+      },
+      {
+         "id":113375,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-20E--ARRONDISSEMENT",
+         "adr":"35, 43 R DURIS",
+         "loc":[
+            48.86583,
+            2.38722
+         ],
+         "date":"1999-11-19",
+         "modif":"2020-02-14",
+         "cp":"75020"
+      },
+      {
+         "id":112024,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-11E--ARRONDISSEMENT",
+         "adr":"197 BD VOLTAIRE R LÉON FROT",
+         "loc":[
+            48.85306,
+            2.38861
+         ],
+         "date":"1999-10-01",
+         "modif":"2020-08-28",
+         "cp":"75011"
+      },
+      {
+         "id":70633,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-13E--ARRONDISSEMENT",
+         "adr":"51 BD BLANQUI",
+         "loc":[
+            48.82917,
+            2.34944
+         ],
+         "date":"1996-07-05",
+         "modif":"2019-08-23",
+         "cp":"75013"
+      },
+      {
+         "id":108612,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-11E--ARRONDISSEMENT",
+         "adr":"57 RUE DE MONTREUIL",
+         "loc":[
+            48.85083,
+            2.38972
+         ],
+         "date":"1999-04-30",
+         "modif":"2020-08-28",
+         "cp":"75011"
+      },
+      {
+         "id":68541,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-12E--ARRONDISSEMENT",
+         "adr":"35 R MONTERA",
+         "loc":[
+            48.84611,
+            2.41028
+         ],
+         "date":"1996-02-02",
+         "modif":"2020-08-28",
+         "cp":"75012"
+      },
+      {
+         "id":111415,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-12E--ARRONDISSEMENT",
+         "adr":"32 AV DU GAL MICHEL BIZOT",
+         "loc":[
+            48.83361,
+            2.39972
+         ],
+         "date":"1999-09-10",
+         "modif":"2019-12-27",
+         "cp":"75012"
+      },
+      {
+         "id":380485,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-12E--ARRONDISSEMENT",
+         "adr":"283 R DE CHARENTON",
+         "loc":[
+            48.83472,
+            2.39389
+         ],
+         "date":"2005-08-19",
+         "modif":"2020-04-03",
+         "cp":"75012"
+      },
+      {
+         "id":67962,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"PARIS-20E--ARRONDISSEMENT",
+         "adr":"128 R DES PYRENEES",
+         "loc":[
+            48.85861,
+            2.40361
+         ],
+         "date":"1996-01-12",
+         "modif":"2020-02-14",
+         "cp":"75020"
+      },
+      {
+         "id":1719461,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"SAINT-MAURICE-DE-REMENS",
+         "adr":"620 AUX FROMENTAUX",
+         "loc":[
+            45.93250,
+            5.26306
+         ],
+         "date":"2018-08-31",
+         "modif":"2019-08-23",
+         "cp":"01500"
+      },
+      {
+         "id":66112,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VELIZY-VILLACOUBLAY",
+         "adr":"38 PL LOUVOIS RES LOUVOIS",
+         "loc":[
+            48.78083,
+            2.19750
+         ],
+         "date":"1995-09-01",
+         "modif":"2020-08-21",
+         "cp":"78140"
+      },
+      {
+         "id":890962,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VELIZY-VILLACOUBLAY",
+         "adr":"11-15 AV DU GÉNÉRAL DE GAULLE",
+         "loc":[
+            48.78417,
+            2.18417
+         ],
+         "date":"2012-12-03",
+         "modif":"2020-08-21",
+         "cp":"78140"
+      },
+      {
+         "id":193197,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VELIZY-VILLACOUBLAY",
+         "adr":"7 R DE LA DIVISION LECLERC",
+         "loc":[
+            48.78361,
+            2.16944
+         ],
+         "date":"2000-05-05",
+         "modif":"2020-08-21",
+         "cp":"78140"
+      },
+      {
+         "id":213412,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VELIZY-VILLACOUBLAY",
+         "adr":"22 AV DE L'EUROPE",
+         "loc":[
+            48.77917,
+            2.21528
+         ],
+         "date":"2001-11-23",
+         "modif":"2019-11-29",
+         "cp":"78140"
+      },
+      {
+         "id":1833510,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"MEUDON",
+         "adr":"13 AV DU MAL JUIN TECHNOPOLE",
+         "loc":[
+            48.78778,
+            2.21917
+         ],
+         "date":"2019-06-14",
+         "modif":"2020-04-24",
+         "cp":"92190"
+      },
+      {
+         "id":198865,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"LYON-6E",
+         "adr":"92 COURS VITTON",
+         "loc":[
+            45.77000,
+            4.86000
+         ],
+         "date":"2000-10-27",
+         "modif":"2020-01-06",
+         "cp":"69006"
+      },
+      {
+         "id":199611,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"LYON-2E",
+         "adr":"32 R THOMASSIN",
+         "loc":[
+            45.76167,
+            4.83611
+         ],
+         "date":"2000-11-17",
+         "modif":"2020-01-06",
+         "cp":"69002"
+      },
+      {
+         "id":306721,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"LYON-6E",
+         "adr":"102 R MASSÉNA C.R.A.M.",
+         "loc":[
+            45.76556,
+            4.85472
+         ],
+         "date":"2002-11-04",
+         "modif":"2020-01-10",
+         "cp":"69006"
+      },
+      {
+         "id":198863,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"LYON-3E",
+         "adr":"245 R ANDRÉ PHILIP RÉSIDENCE 3E AGE",
+         "loc":[
+            45.75833,
+            4.85111
+         ],
+         "date":"2000-10-27",
+         "modif":"2020-01-06",
+         "cp":"69003"
+      },
+      {
+         "id":71932,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"LYON-3E",
+         "adr":"288 R DUGUESCLIN",
+         "loc":[
+            45.75528,
+            4.84944
+         ],
+         "date":"1996-09-06",
+         "modif":"2020-01-06",
+         "cp":"69003"
+      },
+      {
+         "id":79029,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"LYON-3E",
+         "adr":"35 BD VIVIER MERLE",
+         "loc":[
+            45.76167,
+            4.85889
+         ],
+         "date":"1997-05-23",
+         "modif":"2020-01-06",
+         "cp":"69003"
+      },
+      {
+         "id":71929,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"123 RUE CHÂTEAU GAILLARD 34 RUE MONTGOLFIER",
+         "loc":[
+            45.77250,
+            4.88972
+         ],
+         "date":"1996-09-06",
+         "modif":"2020-01-06",
+         "cp":"69100"
+      },
+      {
+         "id":201814,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"LYON-7E",
+         "adr":"29 R CLAUDE BOYER",
+         "loc":[
+            45.74944,
+            4.84861
+         ],
+         "date":"2001-01-19",
+         "modif":"2020-02-21",
+         "cp":"69007"
+      },
+      {
+         "id":428931,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"LYON-3E",
+         "adr":"20 R D ESSLING",
+         "loc":[
+            45.75556,
+            4.85639
+         ],
+         "date":"2006-12-15",
+         "modif":"2020-01-06",
+         "cp":"69003"
+      },
+      {
+         "id":197981,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"LYON-3E",
+         "adr":"15/17 R RABELAIS CSE POMPIER",
+         "loc":[
+            45.76278,
+            4.84417
+         ],
+         "date":"2000-10-06",
+         "modif":"2020-01-06",
+         "cp":"69003"
+      },
+      {
+         "id":71799,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"130 BD DU 11 NOVEMBRE 1918 HOTEL FIMOTEL",
+         "loc":[
+            45.77917,
+            4.87472
+         ],
+
+         "date":"1996-09-06",
+         "modif":"2020-01-06",
+         "cp":"69100"
+      },
+      {
+         "id":107028,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"266 R DU 4 AOÛT",
+         "loc":[
+            45.76611,
+            4.90167
+         ],
+         "date":"1999-02-19",
+         "modif":"2020-01-06",
+         "cp":"69100"
+      },
+      {
+         "id":200660,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"90 COURS TOLSTOÏ",
+         "loc":[
+            45.76222,
+            4.87778
+         ],
+         "date":"2000-12-08",
+         "modif":"2020-01-06",
+         "cp":"69100"
+      },
+      {
+         "id":376180,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"43 BD RÉGUILLON",
+         "loc":[
+            45.76194,
+            4.89694
+         ],
+         "date":"2005-06-24",
+         "modif":"2020-01-10",
+         "cp":"69100"
+      },
+      {
+         "id":205275,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"29 COURS EMILE ZOLA",
+         "loc":[
+            45.77083,
+            4.86500
+         ],
+         "date":"2001-05-04",
+         "modif":"2020-01-06",
+         "cp":"69100"
+      },
+      {
+         "id":79284,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"1-5 R EMILE DECORPS",
+         "loc":[
+            45.75917,
+            4.90056
+         ],
+         "date":"1997-05-30",
+         "modif":"2019-08-23",
+         "cp":"69100"
+      },
+      {
+         "id":83153,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"2 / 4 AV ANTOINE DUTRIEVOZ",
+         "loc":[
+            45.77361,
+            4.86167
+         ],
+         "date":"1997-10-03",
+         "modif":"2020-01-06",
+         "cp":"69100"
+      },
+      {
+         "id":1212302,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"210 COURS EMILE ZOLA",
+         "loc":[
+            45.76833,
+            4.88556
+         ],
+         "date":"2014-03-21",
+         "modif":"2020-01-10",
+         "cp":"69100"
+      },
+      {
+         "id":78373,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"63-65 COURS DE LA RÉPUBLIQUE",
+         "loc":[
+            45.76556,
+            4.87417
+         ],
+         "date":"1997-04-25",
+         "modif":"2020-01-06",
+         "cp":"69100"
+      },
+      {
+         "id":197781,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"146 AVENUE ROGER SALENGRO (LE CASTEL)",
+         "loc":[
+            45.78000,
+            4.88306
+         ],
+         "date":"2000-09-29",
+         "modif":"2019-08-23",
+         "cp":"69100"
+      },
+      {
+         "id":197124,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"24 BOULEVARD DU 11 NOVEMBRE 1918",
+         "loc":[
+            45.77917,
+            4.86194
+         ],
+         "date":"2000-09-08",
+         "modif":"2020-01-06",
+         "cp":"69100"
+      },
+      {
+         "id":105620,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"VILLEURBANNE",
+         "adr":"35 R COLIN",
+         "loc":[
+            45.77361,
+            4.87444
+         ],
+         "date":"1998-12-16",
+         "modif":"2020-01-10",
+         "cp":"69100"
+      },
+      {
+         "id":197515,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"ROUEN",
+         "adr":"PLACE DE L'ÉGLISE ST GERVAIS ÉGLISE ST GERVAIS",
+         "loc":[
+            49.44944,
+            1.08250
+         ],
+         "date":"2000-09-22",
+         "modif":"2020-04-24",
+         "cp":"76000"
+      },
+      {
+         "id":1001815,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"ROUEN",
+         "adr":"34 R JEAN LECANUET",
+         "loc":[
+            49.44500,
+            1.09083
+         ],
+         "date":"2013-02-22",
+         "modif":"2019-07-26",
+         "cp":"76000"
+      },
+      {
+         "id":198284,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"ROUEN",
+         "adr":"25 R GRAND PONT NLLES GALERIES",
+         "loc":[
+            49.43944,
+            1.09194
+         ],
+         "date":"2000-10-13",
+         "modif":"2019-07-26",
+         "cp":"76000"
+      },
+      {
+         "id":195796,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"ROUEN",
+         "adr":"19 RUE JEAN LECANUET",
+         "loc":[
+            49.44389,
+            1.09583
+         ],
+         "date":"2000-07-28",
+         "modif":"2020-08-21",
+         "cp":"76000"
+      },
+      {
+         "id":81200,
+         "operateur":"BOUYGUES TELECOM",
+         "ville":"ROUEN",
+         "adr":"6 R DU CHAMP DE MARS",
+         "loc":[
+            49.43722,
+            1.10611
+         ],
+         "date":"1997-07-25",
+         "modif":"2019-08-02",
+         "cp":"76000"
+      },
+      {
+         "id":1449063,
+         "operateur":"FREE MOBILE",
+         "ville":"PARIS-13E--ARRONDISSEMENT",
+         "adr":"2/4 R BRUNESEAU",
+         "loc":[
+            48.82500,
+            2.38778
+         ],
+         "date":"2016-07-29",
+         "modif":"2019-09-06",
+         "cp":"75013"
+      },
+      {
+         "id":882409,
+         "operateur":"FREE MOBILE",
+         "ville":"PARIS--8E--ARRONDISSEMENT",
+         "adr":"8 RUE DE LA VILLE L'ÉVÊQUE",
+         "loc":[
+            48.87139,
+            2.32139
+         ],
+         "date":"2012-11-05",
+         "modif":"2020-01-06",
+         "cp":"75008"
+      },
+      {
+         "id":1366644,
+         "operateur":"FREE MOBILE",
+         "ville":"PARIS-13E--ARRONDISSEMENT",
+         "adr":"10 PL PINEL",
+         "loc":[
+            48.83389,
+            2.36194
+         ],
+         "date":"2015-10-30",
+         "modif":"2019-09-06",
+         "cp":"75013"
+      },
+      {
+         "id":1499590,
+         "operateur":"FREE MOBILE",
+         "ville":"PARIS-13E--ARRONDISSEMENT",
+         "adr":"2-34 RUE LOUISE WEISS",
+         "loc":[
+            48.83278,
+            2.37139
+         ],
+         "date":"2017-01-06",
+         "modif":"2019-08-30",
+         "cp":"75013"
+      },
+      {
+         "id":1624364,
+         "operateur":"FREE MOBILE",
+         "ville":"PARIS-13E--ARRONDISSEMENT",
+         "adr":"12 RUE MARIE ANDREE LAGROUA WEILL HALLE",
+         "loc":[
+            48.82833,
+            2.38056
+         ],
+         "date":"2018-01-19",
+         "modif":"2019-09-06",
+         "cp":"75013"
+      },
+      {
+         "id":1608147,
+         "operateur":"FREE MOBILE",
+         "ville":"PARIS-13E--ARRONDISSEMENT",
+         "adr":"27 RUE DU DESSOUS DES BERGES",
+         "loc":[
+            48.82528,
+            2.37472
+         ],
+         "date":"2017-11-17",
+         "modif":"2019-09-06",
+         "cp":"75013"
+      },
+      {
+         "id":1880103,
+         "operateur":"FREE MOBILE",
+         "ville":"PARIS-13E--ARRONDISSEMENT",
+         "adr":"55 BD VINCENT AURIOL STATIONS F (GARE DE FRET)",
+         "loc":[
+            48.83361,
+            2.37139
+         ],
+         "date":"2019-10-18",
+         "modif":"2019-10-18",
+         "cp":"75013"
+      },
+      {
+         "id":1618831,
+         "operateur":"FREE MOBILE",
+         "ville":"PARIS-13E--ARRONDISSEMENT",
+         "adr":"14 RUE OLIVIER MESSIAEN",
+         "loc":[
+            48.83028,
+            2.37889
+         ],
+         "date":"2017-12-22",
+         "modif":"2019-09-06",
+         "cp":"75013"
+      },
+      {
+         "id":1469484,
+         "operateur":"FREE MOBILE",
+         "ville":"PARIS-13E--ARRONDISSEMENT",
+         "adr":"RUE DU CHEVALERET",
+         "loc":[
+            48.83000,
+            2.37472
+         ],
+         "date":"2016-10-07",
+         "modif":"2019-09-06",
+         "cp":"75013"
+      },
+      {
+         "id":1194919,
+         "operateur":"ORANGE",
+         "ville":"PARIS-17E--ARRONDISSEMENT",
+         "adr":"146 BOULEVARD MALESHERBES",
+         "loc":[
+            48.88583,
+            2.30694
+         ],
+         "date":"2014-02-07",
+         "modif":"2019-09-27",
+         "cp":"75017"
+      },
+      {
+         "id":104751,
+         "operateur":"ORANGE",
+         "ville":"PARIS-17E--ARRONDISSEMENT",
+         "adr":"70 B  AV DE CLICHY",
+         "loc":[
+            48.88806,
+            2.32500
+         ],
+         "date":"1998-11-06",
+         "modif":"2019-08-02",
+         "cp":"75017"
+      },
+      {
+         "id":56650,
+         "operateur":"ORANGE",
+         "ville":"PARIS-16E--ARRONDISSEMENT",
+         "adr":"5-7 AV. DU GÉNÉRAL SARRAIL",
+         "loc":[
+            48.84694,
+            2.25694
+         ],
+         "date":"1993-08-06",
+         "modif":"2019-08-30",
+         "cp":"75116"
+      },
+      {
+         "id":327396,
+         "operateur":"ORANGE",
+         "ville":"PARIS--1ER-ARRONDISSEMENT",
+         "adr":"55 R JJ ROUSSEAU",
+         "loc":[
+            48.86417,
+            2.34306
+         ],
+         "date":"2003-10-10",
+         "modif":"2019-07-26",
+         "cp":"75001"
+      },
+      {
+         "id":367630,
+         "operateur":"ORANGE",
+         "ville":"PARIS--2E--ARRONDISSEMENT",
+         "adr":"65 R RICHELIEU",
+         "loc":[
+            48.86722,
+            2.33750
+         ],
+         "date":"2005-03-04",
+         "modif":"2019-07-26",
+         "cp":"75002"
+      },
+      {
+         "id":82828,
+         "operateur":"ORANGE",
+         "ville":"PARIS--3E--ARRONDISSEMENT",
+         "adr":"257 R ST MARTIN",
+         "loc":[
+            48.86639,
+            2.35389
+         ],
+         "date":"1997-09-26",
+         "modif":"2019-10-04",
+         "cp":"75003"
+      },
+      {
+         "id":458875,
+         "operateur":"ORANGE",
+         "ville":"PARIS-16E--ARRONDISSEMENT",
+         "adr":"2 AV GORDON BENNETT STADE ROLAND GARROS",
+         "loc":[
+            48.84750,
+            2.24694
+         ],
+         "date":"2007-06-15",
+         "modif":"2020-06-19",
+         "cp":"75116"
+      },
+      {
+         "id":322961,
+         "operateur":"ORANGE",
+         "ville":"PARIS--9E--ARRONDISSEMENT",
+         "adr":"40/42 R DE CLICHY",
+         "loc":[
+            48.87972,
+            2.33000
+         ],
+         "date":"2003-08-14",
+         "modif":"2019-07-12",
+         "cp":"75009"
+      },
+      {
+         "id":104757,
+         "operateur":"ORANGE",
+         "ville":"PARIS-10E--ARRONDISSEMENT",
+         "adr":"33 R DU CHÂTEAU D'EAU",
+         "loc":[
+            48.87083,
+            2.35861
+         ],
+         "date":"1998-11-06",
+         "modif":"2019-08-23",
+         "cp":"75010"
+      },
+      {
+         "id":417615,
+         "operateur":"ORANGE",
+         "ville":"PARIS-10E--ARRONDISSEMENT",
+         "adr":"17 FAUBOURG POISSONNIÈRES",
+         "loc":[
+            48.87222,
+            2.34778
+         ],
+         "date":"2006-08-18",
+         "modif":"2019-07-12",
+         "cp":"75010"
+      },
+      {
+         "id":322282,
+         "operateur":"ORANGE",
+         "ville":"PARIS--8E--ARRONDISSEMENT",
+         "adr":"67 BD HAUSSMANN",
+         "loc":[
+            48.87389,
+            2.32528
+         ],
+         "date":"2003-08-08",
+         "modif":"2019-07-12",
+         "cp":"75008"
+      },
+      {
+         "id":322958,
+         "operateur":"ORANGE",
+         "ville":"PARIS--8E--ARRONDISSEMENT",
+         "adr":"43/45 R DE NAPLES",
+         "loc":[
+            48.87917,
+            2.31667
+         ],
+         "date":"2003-08-14",
+         "modif":"2019-07-26",
+         "cp":"75008"
+      },
+      {
+         "id":352512,
+         "operateur":"ORANGE",
+         "ville":"PARIS--8E--ARRONDISSEMENT",
+         "adr":"41 R MARBEUF",
+         "loc":[
+            48.87000,
+            2.30556
+         ],
+         "date":"2004-09-03",
+         "modif":"2019-08-09",
+         "cp":"75008"
+      },
+      {
+         "id":354171,
+         "operateur":"ORANGE",
+         "ville":"PARIS--9E--ARRONDISSEMENT",
+         "adr":"12 R D'AMSTERDAM",
+         "loc":[
+            48.87639,
+            2.32722
+         ],
+         "date":"2004-09-24",
+         "modif":"2019-06-28",
+         "cp":"75009"
+      },
+      {
+         "id":354322,
+         "operateur":"ORANGE",
+         "ville":"PARIS--8E--ARRONDISSEMENT",
+         "adr":"8 R BOISSY D'ANGLAS",
+         "loc":[
+            48.86806,
+            2.32194
+         ],
+         "date":"2004-09-24",
+         "modif":"2020-02-14",
+         "cp":"75008"
+      },
+      {
+         "id":379421,
+         "operateur":"ORANGE",
+         "ville":"PARIS-10E--ARRONDISSEMENT",
+         "adr":"24 R DE PARADIS",
+         "loc":[
+            48.87500,
+            2.35306
+         ],
+         "date":"2005-08-05",
+         "modif":"2019-07-26",
+         "cp":"75010"
+      },
+      {
+         "id":353286,
+         "operateur":"ORANGE",
+         "ville":"PARIS-17E--ARRONDISSEMENT",
+         "adr":"27 R DE MÉDÉRIC",
+         "loc":[
+            48.88139,
+            2.30417
+         ],
+         "date":"2004-09-10",
+         "modif":"2019-06-28",
+         "cp":"75017"
+      },
+      {
+         "id":561914,
+         "operateur":"ORANGE",
+         "ville":"PARIS--9E--ARRONDISSEMENT",
+         "adr":"79 R DE PROVENCE",
+         "loc":[
+            48.87389,
+            2.33194
+         ],
+
+         "date":"2009-01-16",
+         "modif":"2019-07-12",
+         "cp":"75009"
+      },
+      {
+         "id":352883,
+         "operateur":"ORANGE",
+         "ville":"PARIS--9E--ARRONDISSEMENT",
+         "adr":"9 RUE BUFFAULT",
+         "loc":[
+            48.87556,
+            2.34167
+         ],
+         "date":"2004-09-03",
+         "modif":"2020-07-24",
+         "cp":"75009"
+      },
+      {
+         "id":306058,
+         "operateur":"ORANGE",
+         "ville":"PARIS-16E--ARRONDISSEMENT",
+         "adr":"38/40 R DE GALILÉE",
+         "loc":[
+            48.87000,
+            2.29667
+         ],
+         "date":"2002-08-27",
+         "modif":"2019-07-26",
+         "cp":"75116"
+      },
+      {
+         "id":61649,
+         "operateur":"ORANGE",
+         "ville":"PARIS-17E--ARRONDISSEMENT",
+         "adr":"7 R MARIOTTE",
+         "loc":[
+            48.88417,
+            2.32056
+         ],
+         "date":"1994-12-02",
+         "modif":"2019-08-02",
+         "cp":"75017"
+      },
+      {
+         "id":102671,
+         "operateur":"ORANGE",
+         "ville":"PARIS-17E--ARRONDISSEMENT",
+         "adr":"33 R PONCELET",
+         "loc":[
+            48.88028,
+            2.29778
+         ],
+         "date":"1998-09-11",
+         "modif":"2019-08-30",
+         "cp":"75017"
+      },
+      {
+         "id":106723,
+         "operateur":"ORANGE",
+         "ville":"PARIS-17E--ARRONDISSEMENT",
+         "adr":"4 R DES MOINES",
+         "loc":[
+            48.88722,
+            2.31806
+         ],
+         "date":"1999-01-29",
+         "modif":"2020-07-17",
+         "cp":"75017"
+      },
+      {
+         "id":1221825,
+         "operateur":"ORANGE",
+         "ville":"PARIS-18E--ARRONDISSEMENT",
+         "adr":"11 RUE FOREST",
+         "loc":[
+            48.88500,
+            2.32833
+         ],
+         "date":"2014-04-11",
+         "modif":"2019-08-02",
+         "cp":"75018"
+      },
+      {
+         "id":51822,
+         "operateur":"ORANGE",
+         "ville":"PARIS-16E--ARRONDISSEMENT",
+         "adr":"10 R BASSANO",
+         "loc":[
+            48.86833,
+            2.29694
+         ],
+         "date":"1991-12-06",
+         "modif":"2019-08-09",
+         "cp":"75116"
+      },
+      {
+         "id":563163,
+         "operateur":"ORANGE",
+         "ville":"PARIS--2E--ARRONDISSEMENT",
+         "adr":"21 R DE LA BANQUE",
+         "loc":[
+            48.86833,
+            2.34083
+         ],
+         "date":"2009-02-06",
+         "modif":"2019-07-26",
+         "cp":"75002"
+      },
+      {
+         "id":434302,
+         "operateur":"ORANGE",
+         "ville":"PARIS--8E--ARRONDISSEMENT",
+         "adr":"16 R DE BERRI HOTEL CALIFORNIA",
+         "loc":[
+            48.87278,
+            2.30500
+         ],
+         "date":"2007-01-12",
+         "modif":"2019-07-26",
+         "cp":"75008"
+      },
+      {
+         "id":1363022,
+         "operateur":"ORANGE",
+         
+         "ville":"PARIS--2E--ARRONDISSEMENT",
+         "adr":"18 RUE VOLNEY",
+         "loc":[
+            48.86972,
+            2.33056
+         ],
+         "date":"2015-10-16",
+         "modif":"2019-08-30",
+         "cp":"75002"
+      },
+      {
+         "id":192618,
+         "operateur":"ORANGE",
+         "ville":"PARIS-17E--ARRONDISSEMENT",
+         "adr":"49 R CARDINET",
+         "loc":[
+            48.88278,
+            2.30583
+         ],
+         "date":"2000-04-14",
+         "modif":"2019-10-04",
+         "cp":"75017"
+      },
+      {
+         "id":82605,
+         "operateur":"ORANGE",
+         "ville":"PARIS--3E--ARRONDISSEMENT",
+         "adr":"61 R DES ARCHIVES CTRE FRANCETÉLÉCOM",
+         "loc":[
+            48.86250,
+            2.35889
+         ],
+         "date":"1997-09-19",
+         "modif":"2019-07-26",
+         "cp":"75003"
+      },
+      {
+         "id":191695,
+         "operateur":"ORANGE",
+         "ville":"PARIS--9E--ARRONDISSEMENT",
+         "adr":"18-20 R DE NAVARIN",
+         "loc":[
+            48.88000,
+            2.33833
+         ],
+         "date":"2000-03-17",
+         "modif":"2019-06-28",
+         "cp":"75009"
+      },
+      {
+         "id":109101,
+         "operateur":"ORANGE",
+         "ville":"PARIS-18E--ARRONDISSEMENT",
+         "adr":"100 BD ROCHECHOUARD HÔTEL",
+         "loc":[
+            48.88278,
+            2.34167
+         ],
+         "date":"1999-05-21",
+         "modif":"2019-08-30",
+         "cp":"75018"
+      },
+      {
+         "id":213484,
+         "operateur":"ORANGE",
+         "ville":"PARIS-18E--ARRONDISSEMENT",
+         "adr":"78 BD  DE CLICHY",
+         "loc":[
+            48.88389,
+            2.33333
+         ],
+         "date":"2001-11-23",
+         "modif":"2019-06-28",
+         "cp":"75018"
+      },
+      {
+         "id":322954,
+         "operateur":"ORANGE",
+         "ville":"PARIS--8E--ARRONDISSEMENT",
+         "adr":"11 R D'ANJOU",
+         "loc":[
+            48.87028,
+            2.32056
+         ],
+         "date":"2003-08-14",
+         "modif":"2019-08-09",
+         "cp":"75008"
+      },
+      {
+         "id":213510,
+         "operateur":"ORANGE",
+         "ville":"SAINT-OUEN",
+         "adr":"AVENUE MICHELET",
+         "loc":[
+            48.90806,
+            2.34361
+         ],
+         "date":"2001-11-23",
+         "modif":"2019-11-08",
+         "cp":"93400"
+      },
+      {
+         "id":67729,
+         "operateur":"ORANGE",
+         "ville":"SAINT-OUEN",
+         "adr":"26-28 R SALVADOR ALLENDE CITÉ ALLENDE",
+         "loc":[
+            48.91667,
+            2.33667
+         ],
+         "date":"1995-12-01",
+         "modif":"2019-08-02",
+         "cp":"93400"
+      },
+      {
+         "id":333721,
+         "operateur":"ORANGE",
+         "ville":"SAINT-DENIS",
+         "adr":"91, R DU LANDY",
+         "loc":[
+            48.91472,
+            2.35583
+         ],
+         "date":"2004-01-05",
+         "modif":"2019-08-09",
+         "cp":"93200"
+      },
+      {
+         "id":112503,
+         "operateur":"ORANGE",
+         "ville":"SAINT-OUEN",
+         "adr":"5 R PAUL BERT",
+         "loc":[
+            48.90250,
+            2.34056
+         ],
+         "date":"1999-10-15",
+         "modif":"2019-04-19",
+         "cp":"93400"
+      },
+      {
+         "id":68703,
+         "operateur":"ORANGE",
+         "ville":"SAINT-OUEN",
+         "adr":"17/19 R DU MARÉCHAL LECLERC",
+         "loc":[
+            48.90333,
+            2.35056
+         ],
+         "date":"1996-02-02",
+         "modif":"2019-04-26",
+         "cp":"93400"
+      },
+      {
+         "id":192175,
+         "operateur":"ORANGE",
+         "ville":"SAINT-OUEN",
+         "adr":"39 AV MICHELET",
+         "loc":[
+            48.91083,
+            2.34472
+         ],
+         "date":"2000-03-31",
+         "modif":"2019-11-08",
+         "cp":"93400"
+      },
+      {
+         "id":594851,
+         "operateur":"ORANGE",
+         "ville":"VILLENEUVE",
+         "adr":"PRÈS D.936 (LAZARE)",
+         "loc":[
+            46.03306,
+            4.84750
+         ],
+         "date":"2009-07-17",
+         "modif":"2019-11-29",
+         "cp":"01480"
+      },
+      {
+         "id":367077,
+         "operateur":"ORANGE",
+         "ville":"VILLEJUIF",
+         "adr":"110 R EDOUARD   VAILLANT PARKING",
+         "loc":[
+            48.79361,
+            2.35167
+         ],
+         "date":"2005-03-04",
+         "modif":"2020-07-24",
+         "cp":"94800"
+      },
+      {
+         "id":208655,
+         "operateur":"ORANGE",
+         "ville":"LINAS",
+         "adr":"AV. GEORGES BOILLOT UTAC",
+         "loc":[
+            48.62222,
+            2.24556
+         ],
+         "date":"2001-08-24",
+         "modif":"2019-06-14",
+         "cp":"91310"
+      },
+      {
+         "id":67290,
+         "operateur":"ORANGE",
+         "ville":"MEUDON",
+         "adr":"6 R DE PARIS",
+         "loc":[
+            48.81694,
+            2.24806
+         ],
+         "date":"1995-11-03",
+         "modif":"2019-08-09",
+         "cp":"92190"
+      },
+      {
+         "id":326075,
+         "operateur":"ORANGE",
+         "ville":"BOULOGNE-BILLANCOURT",
+         "adr":"98 AV DU GÉNÉRAL LECLERC",
+         "loc":[
+            48.83139,
+            2.23500
+         ],
+         "date":"2003-10-03",
+         "modif":"2019-11-22",
+         "cp":"92100"
+      },
+      {
+         "id":68902,
+         "operateur":"ORANGE",
+         "ville":"SEVRES",
+         "adr":"18/20 R TROYON IMM. COGETOM",
+         "loc":[
+            48.82611,
+            2.22639
+         ],
+         "date":"1996-03-01",
+         "modif":"2019-08-30",
+         "cp":"92310"
+      },
+      {
+         "id":451645,
+         "operateur":"ORANGE",
+         "ville":"ISSY-LES-MOULINEAUX",
+         "adr":"4 R VAUGIRARD",
+         "loc":[
+            48.81944,
+            2.24306
+         ],
+         "date":"2007-04-27",
+         "modif":"2019-10-11",
+         "cp":"92130"
+      },
+      {
+         "id":531509,
+         "operateur":"ORANGE",
+         "ville":"ISSY-LES-MOULINEAUX",
+         "adr":"72 À 74 R DE L ÉGALITÉ",
+         "loc":[
+            48.81639,
+            2.25889
+         ],
+         "date":"2008-07-18",
+         "modif":"2019-10-04",
+         "cp":"92130"
+      },
+      {
+         "id":64011,
+         "operateur":"ORANGE",
+         "ville":"BOULOGNE-BILLANCOURT",
+         "adr":"40 R DE L'EST SOGEPARC FRANCE",
+         "loc":[
+            48.84111,
+            2.24472
+         ],
+         "date":"1995-04-07",
+         "modif":"2019-12-20",
+         "cp":"92100"
+      },
+      {
+         "id":325009,
+         "operateur":"ORANGE",
+         "ville":"BOULOGNE-BILLANCOURT",
+         "adr":"57 R MARCEL DASSAULT CPE",
+         "loc":[
+            48.83472,
+            2.25167
+         ],
+         "date":"2003-09-12",
+         "modif":"2019-08-23",
+         "cp":"92100"
+      },
+      {
+         "id":359952,
+         "operateur":"ORANGE",
+         "ville":"MALAKOFF",
+         "adr":"14 R HOCHE ALLÉE MARIE-LOUISE ALLÉE MARIE-JEANNE",
+         "loc":[
+            48.81583,
+            2.28944
+         ],
+         "date":"2004-11-26",
+         "modif":"2019-10-04",
+         "cp":"92240"
+      },
+      {
+         "id":213506,
+         "operateur":"ORANGE",
+         "ville":"ISSY-LES-MOULINEAUX",
+         "adr":"140 AV DE VERDUN",
+         "loc":[
+            48.81972,
+            2.25611
+         ],
+         "date":"2001-11-23",
+         "modif":"2019-09-06",
+         "cp":"92130"
+      },
+      {
+         "id":1511107,
+         "operateur":"ORANGE",
+         "ville":"ISSY-LES-MOULINEAUX",
+         "adr":"80 RUE CAMILLE DESMOULINS",
+         "loc":[
+            48.83028,
+            2.26472
+         ],
+         "date":"2017-02-03",
+         "modif":"2019-11-22",
+         "cp":"92130"
+      },
+      {
+         "id":1293887,
+         "operateur":"ORANGE",
+         "ville":"SAINT-CLOUD",
+         "adr":"RUE D'ORLÉANS 1 RUE ROYALE (LES BUREAUX DE LA COLLINE)",
+         "loc":[
+            48.84167,
+            2.21972
+         ],
+         "date":"2015-01-05",
+         "modif":"2019-10-04",
+         "cp":"92210"
+      },
+      {
+         "id":216015,
+         "operateur":"ORANGE",
+         "ville":"ISSY-LES-MOULINEAUX",
+         "adr":"1 BD GARIBALDI",
+         "loc":[
+            48.82333,
+            2.26306
+         ],
+         "date":"2002-01-25",
+         "modif":"2019-10-04",
+         "cp":"92130"
+      },
+      {
+         "id":325012,
+         "operateur":"ORANGE",
+         "ville":"BOULOGNE-BILLANCOURT",
+         "adr":"25B  AV MORIZET CPE",
+         "loc":[
+            48.83528,
+            2.23972
+         ],
+         "date":"2003-09-19",
+         "modif":"2019-12-20",
+         "cp":"92100"
+      },
+      {
+         "id":215135,
+         "operateur":"ORANGE",
+         "ville":"BOULOGNE-BILLANCOURT",
+         "adr":"72/74 AV EDOUARD VAILLANT",
+         "loc":[
+            48.83500,
+            2.24694
+         ],
+         "date":"2001-12-21",
+         "modif":"2019-10-11",
+         "cp":"92100"
+      },
+      {
+         "id":373992,
+         "operateur":"ORANGE",
+         "ville":"BOULOGNE-BILLANCOURT",
+         "adr":"74 R ESCUDIER",
+         "loc":[
+            48.84389,
+            2.24167
+         ],
+         "date":"2005-05-27",
+         "modif":"2019-08-23",
+         "cp":"92100"
+      },
+      {
+         "id":417866,
+         "operateur":"ORANGE",
+         "ville":"BOULOGNE-BILLANCOURT",
+         "adr":"127 AV. J-B CLÉMENT D.113",
+         "loc":[
+            48.84278,
+            2.23167
+         ],
+         "date":"2006-08-18",
+         "modif":"2019-11-22",
+         "cp":"92100"
+      },
+      {
+         "id":205809,
+         "operateur":"ORANGE",
+         "ville":"BOULOGNE-BILLANCOURT",
+         "adr":"221 B  BD JEAN JAURES",
+         "loc":[
+            48.83139,
+            2.24500
+         ],
+         "date":"2001-05-25",
+         "modif":"2019-08-30",
+         "cp":"92100"
+      },
+      {
+         "id":1237778,
+         "operateur":"ORANGE",
+         "ville":"BOULOGNE-BILLANCOURT",
+         "adr":"9 AVENUE CHARLES DE GAULLE HÔPITAL AMBROISE PARÉ",
+         "loc":[
+            48.84917,
+            2.23583
+         ],
+         "date":"2014-06-13",
+         "modif":"2019-10-04",
+         "cp":"92100"
+      },
+      {
+         "id":105421,
+         "operateur":"ORANGE",
+         "ville":"ISSY-LES-MOULINEAUX",
+         "adr":"2 R FOUCHER LEPELLETIER RÉSIDENCE SÉVERINE",
+         "loc":[
+            48.82972,
+            2.27972
+         ],
+         "date":"1998-12-11",
+         "modif":"2019-08-30",
+         "cp":"92130"
+      },
+      {
+         "id":418731,
+         "operateur":"ORANGE",
+         "ville":"ISSY-LES-MOULINEAUX",
+         "adr":"44/56 R D'EREVAN",
+         "loc":[
+            48.81833,
+            2.25972
+         ],
+         "date":"2006-09-01",
+         "modif":"2019-08-30",
+         "cp":"92130"
+      },
+      {
+         "id":528174,
+         "operateur":"ORANGE",
+         "ville":"ISSY-LES-MOULINEAUX",
+         "adr":"13 B  R AUGUSTE GERVAIS",
+         "loc":[
+            48.82278,
+            2.27389
+         ],
+         "date":"2008-06-30",
+         "modif":"2019-08-30",
+         "cp":"92130"
+      },
+      {
+         "id":881774,
+         "operateur":"ORANGE",
+         "ville":"VANVES",
+         "adr":"14 RUE JEAN JAURES",
+         "loc":[
+            48.82444,
+            2.29694
+         ],
+         "date":"2012-10-26",
+         "modif":"2019-10-04",
+         "cp":"92170"
+      },
+      {
+         "id":79914,
+         "operateur":"SFR",
+         "ville":"SAINT-OUEN",
+         "adr":"10, PL DE LA RÉPUBLIQUE",
+         "loc":[
+            48.91167,
+            2.33306
+         ],
+         "date":"1997-06-20",
+         "modif":"2020-04-10",
+         "cp":"93400"
+      },
+      {
+         "id":85402,
+         "operateur":"SFR",
+         "ville":"SAINT-OUEN",
+         "adr":"162, R DU DR BAUER",
+         "loc":[
+            48.90278,
+            2.34778
+         ],
+         "date":"1997-12-12",
+         "modif":"2020-04-10",
+         "cp":"93400"
+      },
+      {
+         "id":387976,
+         "operateur":"SFR",
+         "ville":"SAINT-OUEN",
+         "adr":"5 R JULES VALLES",
+         "loc":[
+            48.90306,
+            2.33694
+         ],
+         "date":"2005-11-18",
+         "modif":"2020-04-30",
+         "cp":"93400"
+      },
+      {
+         "id":69620,
+         "operateur":"SFR",
+         "ville":"SAINT-OUEN",
+         "adr":"72 AVENUE MICHELET",
+         "loc":[
+            48.90861,
+            2.34361
+         ],
+         "date":"1996-04-05",
+         "modif":"2020-04-17",
+         "cp":"93400"
+      },
+      {
+         "id":89317,
+         "operateur":"SFR",
+         "ville":"SAINT-OUEN",
+         "adr":"12 R GAMBETTA",
+         "loc":[
+            48.90528,
+            2.33528
+         ],
+         "date":"1998-04-10",
+         "modif":"2020-04-24",
+         "cp":"93400"
+      },
+      {
+         "id":101402,
+         "operateur":"SFR",
+         "ville":"SAINT-OUEN",
+         "adr":"18/20 AV DU CAPITAINE GLARNER",
+         "loc":[
+            48.90611,
+            2.32722
+         ],
+         "date":"1998-07-03",
+         "modif":"2020-04-24",
+         "cp":"93400"
+      },
+      {
+         "id":515518,
+         "operateur":"SFR",
+         "ville":"VELIZY-VILLACOUBLAY",
+         "adr":"6 R NIEUPORT",
+         "loc":[
+            48.78278,
+            2.20917
+         ],
+         "date":"2008-03-14",
+         "modif":"2019-11-08",
+         "cp":"78140"
+      },
+      {
+         "id":192099,
+         "operateur":"SFR",
+         "ville":"VELIZY-VILLACOUBLAY",
+         "adr":"24 PL LOUVOIS",
+         "loc":[
+            48.78111,
+            2.19639
+         ],
+         "date":"2000-03-31",
+         "modif":"2020-01-06",
+         "cp":"78140"
+      },
+      {
+         "id":62708,
+         "operateur":"SFR",
+         "ville":"CLICHY",
+         "adr":"123 BD VICTOR HUGO - RD 410 IMM LA LUTÈCE",
+         "loc":[
+            48.90250,
+            2.31778
+         ],
+         "date":"1995-02-03",
+         "modif":"2020-05-07",
+         "cp":"92110"
+      },
+      {
+         "id":67636,
+         "operateur":"SFR",
+         "ville":"MEUDON",
+         "adr":"8, 16 R DE LA PEPINIERE",
+         "loc":[
+            48.78556,
+            2.22472
+         ],
+         "date":"1995-12-01",
+         "modif":"2020-02-28",
+         "cp":"92190"
+      },
+      {
+         "id":102635,
+         "operateur":"SFR",
+         "ville":"CLICHY",
+         "adr":"1 R BARDIN RÉSIDENCE BARDIN",
+         "loc":[
+            48.90889,
+            2.30778
+         ],
+         "date":"1998-09-11",
+         "modif":"2020-04-10",
+         "cp":"92110"
+      },
+      {
+         "id":531321,
+         "operateur":"SFR",
+         "ville":"CLICHY",
+         "adr":"51 R PIERRE",
+         "loc":[
+            48.91222,
+            2.31472
+         ],
+         "date":"2008-07-18",
+         "modif":"2020-04-24",
+         "cp":"92110"
+      },
+      {
+         "id":340916,
+         "operateur":"SFR",
+         "ville":"CLICHY",
+         "adr":"38 R PIERRE BÉRÉGOVOY",
+         "loc":[
+            48.90333,
+            2.29861
+         ],
+         "date":"2004-04-16",
+         "modif":"2020-04-10",
+         "cp":"92110"
+      },
+      {
+         "id":77148,
+         "operateur":"SFR",
+         "ville":"CLICHY",
+         "adr":"94 RUE MARTRE",
+         "loc":[
+            48.90389,
+            2.30556
+         ],
+         "date":"1997-03-21",
+         "modif":"2020-05-15",
+         "cp":"92110"
+      }
+   ]
+}
