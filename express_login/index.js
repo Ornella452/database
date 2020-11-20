@@ -99,22 +99,21 @@ app.post("/signup", (req, res) => {
 
   console.log("will signup");
 
-  
-  const {username, firstName, surname, email, password, confirmPassword,  birthday} = req.body
 
+  const { username, firstName, surname, email, password, birthday } = req.body
+  console.log('password', password)
   User.register(
     new User({
       username,
       firstName,
-       surname, 
-       email, 
-       password, 
-       confirmPassword, 
-       birthday,
+      surname,
+      email,
+      //password, 
+      birthday,
       // other fields can be added here
     }),
-   
-
+    password,
+    
     (err, user) => {
       if (err) {
         console.log("/signup user register err", err);

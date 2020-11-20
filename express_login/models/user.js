@@ -11,7 +11,6 @@ const UserSchema = new mongoose.Schema({
    required: true,
    minlength: 8,
   },
-  confirmPassword: String,
   birthday: Date,
 
 });
