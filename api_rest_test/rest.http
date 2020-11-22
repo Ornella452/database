@@ -1,3 +1,6 @@
+POST   http://localhost:3000/api_5g
+Content-Type: application/json
+
 {
    "count":135,
    "antennes":[

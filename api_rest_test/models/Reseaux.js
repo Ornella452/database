@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const Reseaux = new Schema({
-    id: Number,
+    _id: Number,
     operateur:String,
     ville:String,
     adr:String,
