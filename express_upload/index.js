@@ -53,6 +53,7 @@ var storage = multer.diskStorage({//
 var upload = multer({ storage: storage });
 
 
+
 const UserShema = new mongoose.Schema({
     username: {
         type: [String],
@@ -89,6 +90,7 @@ app.post('/upload', upload.single('image'), async (req, res, next) => {
         username: usernames,
         id: newUser._id
     });
+
 
 });
 

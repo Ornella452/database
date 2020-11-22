@@ -30,7 +30,7 @@ app.get('/api_5g', async (req, res) => {
 })
 
 ////// pour recuperer un id spécial => tester => ok il marche /////
-app.get('/api_5g:id', async (req, res) => {
+app.get('/api_5g/:id', async (req, res) => {
     try {
        const resultatId = await Reseaux.findById(req.params.id)
        res.json(resultatId)
@@ -46,9 +46,12 @@ app.post('/api_5g', async (req, res) => {
     try {
         Reseaux.create(req.body.antennes)
         //res.json(req.body);
-        res.status(400).json('bravo')
+        res.status(200).json('bravo')
         const newRes = new Reseaux(req.body.antennes);
-        await newRes.save;  
+        
+
+
+        await newRes.save();  
     }
     catch (error) {
 

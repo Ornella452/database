@@ -13,7 +13,7 @@ mongoose.connect("mongodb://localhost:27017/authentication_exercise",
   {
     useNewUrlParser: true,
     useCreateIndex: true,
-    useUnifiedTopology: false
+    useUnifiedTopology: true
   }
 );
 
@@ -108,7 +108,7 @@ app.post("/signup", (req, res) => {
       firstName,
       surname,
       email,
-      //password, 
+   
       birthday,
       // other fields can be added here
     }),
@@ -160,6 +160,7 @@ app.post(
 //   );
 //   res.send("login");
 // });
+
 
 app.get("/logout", (req, res) => {
   console.log("GET /logout");
