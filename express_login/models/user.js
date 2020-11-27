@@ -11,11 +11,11 @@ const UserSchema = new mongoose.Schema({
    required: true,
    minlength: 8,
   }, */
-  birthday: Date,
+  date: Date
 
 });
 
-UserSchema.plugin(passportLocalMongoose);
+UserSchema.plugin(passportLocalMongoose, { usernameField: "email"});
 
 const User = mongoose.model('User', UserSchema);
 

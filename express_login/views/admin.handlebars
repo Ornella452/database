@@ -1,2 +1,8 @@
 <p>This page is protected</p>
 <a href="/logout">Logout</a>
+
+{{#each users}}
+
+<li>{{this.username}}  |    {{this.firstName}}   |    {{this.date}} ans</li>
+
+{{/each}}

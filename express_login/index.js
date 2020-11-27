@@ -5,7 +5,8 @@ const MongoStore = require("connect-mongo")(expressSession);
 const mongoose = require("mongoose");
 const passport = require("passport");
 const LocalStrategy = require("passport-local");
-const User = require("./models").User; // same as: const User = require('./models/user');
+const User = require("./models/user")
+const anniv = require('./anniv')
 
 const port = 3000;
 
@@ -40,8 +41,13 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
+
+
 // Passport configuration
-passport.use(new LocalStrategy(User.authenticate()));
+passport.use(new LocalStrategy({
+  usernameField: "email",
+  passwordField: "password"
+},User.authenticate()));
 passport.serializeUser(User.serializeUser()); // Save the user.id to the session
 passport.deserializeUser(User.deserializeUser()); // Receive the user.id from the session and fetch the User from the DB by its ID
 
@@ -50,14 +56,36 @@ app.get("/", (req, res) => {
   res.render("home");
 });
 
-app.get("/admin", (req, res) => {
-  console.log("GET /admin");
+// app.get("/login", (req, res) => {
+//   console.log("GET /");
+//   console.log("votre mp ou mailest incorrect !")
+//   res.render("login");
+// });
+
+
+app.get("/admin", async (req, res, next) => {
   if (req.isAuthenticated()) {
-    console.log(req.user);
-    res.render("admin");
+    console.log('Vous etes connectez');
+    //1er methode 
+    const users = await User.find().lean()
+   
+
+    res.render('admin', {
+      users,
+      date: anniv(req.user.date)
+
+    })
+    //2 éme methode possible de lydia
+    // res.render('admin', {
+    //     surname: req.user.surname,
+    //     username: req.user.username,
+    //     firstName: req.user.firstName
+    // })
+
   } else {
-    res.redirect("/");
+    res.redirect('/')
   }
+  //next() au cas où si ça tourne en illimité sur google
 });
 
 app.get("/signup", (req, res) => {
@@ -69,61 +97,42 @@ app.get("/signup", (req, res) => {
   }
 });
 
+
 app.post("/signup", (req, res) => {
   console.log("POST /signup");
-  // create a user with the defined model with
-  // req.body.username, req.body.password
-
-  // WITHOUT PASSPORT
-
-  // const username = req.body.username;
-  // const password = req.body.password;
-
-  // User.findOne({username: username}, (user) => {
-  //   if (user === null) {
-  //     const newUser = new User({
-  //       username: username,
-  //       password: password,
-  //     });
-  //     newUser.save((err, obj) => {
-  //       if (err) {
-  //         console.log('/signup user save err', err);
-  //         res.render('500');
-  //       } else {
-  //         // Save a collection session with a token session and
-  //         // a session cookie in the browser
-  //       }
-  //     });
-  //   }
-  // });
-
   console.log("will signup");
-
-
-  const { username, firstName, surname, email, password, birthday } = req.body
+  const { username, firstName, surname, email, confirm_password, password, date } = req.body
+  console.log('confirm_password:', confirm_password)
   console.log('password', password)
-  User.register(
-    new User({
-      username,
-      firstName,
-      surname,
-      email,
-   
-      birthday,
-      // other fields can be added here
-    }),
-    password,
-    
-    (err, user) => {
-      if (err) {
-        console.log("/signup user register err", err);
-        return res.render("signup");
-      } else {
-        passport.authenticate("local")(req, res, () => {
-          res.redirect("/admin");
-        });
-      }
+
+  User.register(new User({ username, firstName, surname, email, date }), password, (err, user) => {
+    if (err) {
+      console.log('err dans post signup :', err)
+      return res.status(400).send('signup erreur !!')
     }
+
+    let params = req.body.password;
+    let cofpasw = req.body.confirm_password;
+
+    if (cofpasw === params){
+      console.log('ok ok ok ')
+      passport.authenticate("local")(req, res, () => {
+        console.log('coucou')
+        res.redirect("/admin");
+
+      });
+      //       passport.authenticate('local',  { successFlash: 'Welcome !' }), (req, res)=> {
+
+      //         console.log('coucou')
+      //          res.redirect('/admin');
+      // };
+    } else {
+      console.log("/signup user register err", err);
+      return res.render("signup");
+    }
+
+
+  }
   );
 });
 
@@ -132,35 +141,16 @@ app.get("/login", (req, res) => {
     res.redirect("/admin");
   } else {
     res.render("login");
+    console.log("non connected")
   }
 });
 
-app.post(
-  "/login",
-  passport.authenticate("local", {
-    successRedirect: "/admin",
-    failureRedirect: "/login"
-  })
+app.post("/login", passport.authenticate("local", {
+  successRedirect: "/admin",
+  failureRedirect: "/login",
+})
+
 );
-
-// Without Passport
-
-// app.post("/login", (req, res) => {
-//   const md5 = require("md5"); // there for education purpose, if using this method, put it in the top of your file
-//   User.find(
-//     {
-//       username: req.body.username,
-//       password: md5(req.body.password)
-//     },
-//     (users) => {
-//       // create a session cookie in the browser
-//       // if the password is good
-//       // and redirect to /admin
-//     }
-//   );
-//   res.send("login");
-// });
-
 
 app.get("/logout", (req, res) => {
   console.log("GET /logout");
@@ -169,5 +159,6 @@ app.get("/logout", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server started on port: ${port}`);
+  console.log(`Server started on port: ${port} ! `);
 });
+
