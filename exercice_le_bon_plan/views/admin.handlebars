@@ -1,0 +1,56 @@
+{{> navbar }}
+
+{{!-- <h1> Add product </h1>
+<form enctype='multipart/form-data' action='/products' method='POST'>
+    <input type="text" placeholder="Name" name="name" value="Vase" />
+    <input type="text" placeholder="Description" name="description" value="un joli vase" />
+    <select name="cities">
+        <option value="paris"> Paris </option>
+        <option value="lyon">Lyon</option>
+        <option value="marseille"> Marseille </option>
+    </select>
+    <input type="number" name="price" value="10" />
+    <input type="file" name='image' />
+    <button type="submit">Submit</button>
+</form> --}}
+
+
+<form enctype='multipart/form-data' action='/products' method='POST'>
+    <div class="form-row">
+        <div class="form-group col-md-6 col-sm-6">
+            {{!-- // <label>Nom : </label> --}}
+            <input class="form-control" type="text" placeholder="Name" name="name" />
+        </div>
+        <div class="form-group col-md-6 col-sm-6">
+
+            <input class="form-control" type="text" placeholder="Description" name="description" />
+        </div>
+        <div class="form-group col-md-6 col-sm-6">
+
+            <select name="cities" class="form-control">
+                <option value="paris"> Paris </option>
+                <option value="lyon">Lyon</option>
+                <option value="marseille"> Marseille </option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group  col-md-6 col-sm-6">
+
+        <input class="form-control" type="number" name="price" />
+    </div>
+    <div class="col-md-4 col-sm-4"></div>
+
+
+    <div class="form-group col-md-4 col-sm-4 ">
+        <input class="form-control" type="file" name='image' />
+    </div>
+    <div class="col-md-3"></div>
+    </div>
+        <div class="form-group col-md-8">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+    </div>
+
+    
+    
+</form>

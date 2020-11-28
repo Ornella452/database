@@ -1,0 +1,16 @@
+{{>navbar}}
+
+
+<h1>Product List</h1>
+{{#each products}}
+<div class="card shadow p-4 mb-2 bg-white col-md-3 col-sm-6 mb-5" >
+    <a href="/products/{{this._id}}">
+        <img class="card-img-top col-md-4 col-sm-4 mb-4" src="{{this.pictureUrl}}" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{this.name}} - {{this.price}}</h5>
+            <p class="card-text">{{this.description}}</p>
+        </div>
+    </a>
+</div>
+
+{{/each}}
